@@ -1,0 +1,31 @@
+/* Blur Effect */
+.image-wrap {
+position:relative;
+/*height:600px;*/
+overflow:hidden
+}
+.regular, .blurred {
+position:absolute;
+width:100%;
+/*min-height: 600px;*/
+/*height: 600px;*/
+background-size: cover !important;
+-webkit-transform: translate3d(0,0,0);
+}
+
+/*.regular {opacity:1;}
+.blurred { opacity:0;}*/
+
+.image-wrap-01 .regular {background:url(http://drive.google.com/uc?export=view&id=0B34X0QBlJmRzR2haSlczMDZHN3c) no-repeat center center; }
+.image-wrap-01 .blurred { background:url(http://drive.google.com/uc?export=view&id=0B34X0QBlJmRzR2haSlczMDZHN3c) no-repeat center center; }
+
+
+.image-wrap-02 .regular {background:url(http://placehold.it/1500x1000) no-repeat center center; }
+.image-wrap-02 .blurred { background:url(http://placehold.it/1500x1000) no-repeat center center; }
+
+.image-wrap-03 .regular {background:url(http://pre14.deviantart.net/9af7/th/pre/i/2012/126/1/e/forest_bokeh_by_ipilgrimage-d4ysglo.jpg) no-repeat center center; }
+.image-wrap-03 .blurred { background:url(http://pre14.deviantart.net/9af7/th/pre/i/2012/126/1/e/forest_bokeh_by_ipilgrimage-d4ysglo.jpg) no-repeat center center; }
+
+
+.image-wrap-04 .regular {background:url(http://placehold.it/1500x1000) no-repeat center center; }
+.image-wrap-04 .blurred { background:url(http://placehold.it/1500x1000) no-repeat center center; }

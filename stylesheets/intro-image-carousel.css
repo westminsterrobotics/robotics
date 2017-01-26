@@ -1,0 +1,31 @@
+.image-carousel-item {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+.photography-carousel-item-01{
+	background-image:url(https://pbs.twimg.com/media/CvYb2Q1WYAA4Lp3.jpg);
+}
+
+.photography-carousel-item-02{
+	background-image:url(http://placehold.it/1500x1000);
+}
+
+.photography-carousel-item-03{
+	background-image:url(http://placehold.it/1500x1000);
+}
+
+.agency-carousel-item-01{
+	background-image:url(http://placehold.it/1500x1000);
+}
+
+.agency-carousel-item-02{
+	background-image:url(http://placehold.it/1500x1000);
+}
+
+.agency-carousel-item-03{
+	background-image:url(http://placehold.it/1500x1000);
+}

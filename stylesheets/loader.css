@@ -1,0 +1,70 @@
+
+/*<div class="ajax-loader" style="display: block;">
+    <div class="ajax-loader-inner">
+        <div class="ajax-loader-html">
+        </div>
+    </div>
+</div>*/
+
+
+.ajax-loader {
+    display: none;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 1100;
+}
+.ajax-loader-inner{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.ajax-loader-html {
+    animation: 1s ease-in-out 0s normal none infinite scaleout;
+    border:double 15px #000;
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+}
+@-moz-keyframes scaleout {
+0% {
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1);
+}
+}
+@-moz-keyframes scaleout {
+0% {
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1);
+}
+}
+@-moz-keyframes spin {
+0% {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+100% {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+}
+@-moz-keyframes spin {
+0% {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+100% {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+}
+body.smooth_scroll {
+    overflow-y: hidden;
+}
